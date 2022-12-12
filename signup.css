@@ -1,5 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("background_image.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#container {
+  background-color: black;
+  width: 400px;
+  padding: 30px;
+  margin: 20px;
+}
+#title {
+  font-family: Bowlby One SC;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-weight: 900;
+}
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+}
+form {
+  display: inline-block;
+  text-align: left;
+}
+label {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+#submit {
+  background-color: #ff0000;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  width: 160px;
+  height: 45px;
+  margin-left: 25%;
+  font-size: larger;
+}
+#name,
+#email,
+#age,
+#dropdown {
+  width: 300px;
+  height: 30px;
 }
